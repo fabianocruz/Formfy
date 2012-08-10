@@ -1,0 +1,422 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/css3.btn.css">
+
+	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./files/elements.css">
+	<script type="text/javascript" src="./files/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="./files/includeNewHeaderStylesAndScripts.css">
+
+	<script type="text/javascript">if (self != top) {top.location = self.location; }</script>
+
+	<title>formfy.com - free online data collection, analysis and real-time information tool</title>
+
+	<meta name="Description" content="">
+	<meta name="Keywords" content="">
+
+    
+	<link rel="stylesheet" type="text/css" href="./files/indexnew2.css">
+	<script type="text/javascript" src="./files/login_fnc.js"></script>
+	<link rel="stylesheet" type="text/css" href="./files/mac.css">
+	<link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css">
+	<script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/page_context.js"></script>
+	<script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+
+</head>
+
+<body class="no-js index" screen_capture_injected="true">
+
+<div id="container">
+
+<div id="writeDragMain" style="display: none;">
+  <div id="wdMain" class="dragDiv">
+    <div class="dragDivHandle">
+      <table cellpadding="1" cellspacing="0" width="100%">
+        <tbody><tr>
+          <td>&nbsp;<span class="dragDivTitle"></span></td>
+          <td>
+            <a href="https://www.formfy.com/#" class="floatRight close">
+              <img style="vertical-align: middle;" class="xBox" src="./files/close.gif" width="16" height="16" alt="X" border="0" title="Close box">
+            </a>
+          </td>
+        </tr>
+      </tbody></table>
+    </div>
+    <div class="dragDivContent">
+    </div>
+  </div>
+</div>
+
+<div class="mainHeader nullHeader">
+  <div class="loggedCenter">
+
+    <div class="floatLeft logo gaClick" data-element="h1"><a href="http://www.formfy.com/"><img src="./files/spacer.gif" alt=""></a></div>
+
+    <div class="floatRight controls lucida">
+
+     <div class="sign item absmid">
+
+
+      </div>
+
+
+      <div class="hdivider sign absmid"><span></span></div>
+         
+      <div class="inline login item absmid">
+
+        <div class="loggedLlink textlink gaClick" onclick="return false;"><i>Fabiano Cruz</i></div>
+
+      </div>
+      
+
+         <div class="inline hdivider absmid"><span></span></div>
+
+        <div class="inline settings item absmid">
+
+        <div class="gear piclink sprite1 gaClick" data-element="h15"><i>
+          <span class="iehfix">&nbsp;</span><span class="expand absmid"></span></i></div>
+
+        <div class="click_container csettings in-tab roundBL4 roundBR4 roundTL4 f13">
+          <div class="i roundBL4 roundBR4 roundTL4">
+            <div class="ls">
+         
+                <a href="https://www.formfy.com/premium.php?ref=nheader" class="pr gaClick" data-element="h17">Premium</a>
+                
+                <a href="javascript:return;" id="changeLang" class="gaClick" data-element="h18" onclick="return iNHSelectLanguage()"><span class="floatLeft">Language</span><span class="pr floatRight paddingR5">en</span></a>
+                <div class="v-div"></div>
+                <a href="https://www.formfy.com/faq.php" class="clear gaClick" data-element="h19">FAQ</a>
+                <a href="https://www.formfy.com/help/index.php" class="gaClick" data-element="h20">Help</a>
+                
+              <div class="clear"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+	<div id="main" role="main">
+	
+		<aside> 
+			<div id="fieldType">
+				<ul> 
+					<li><button id="btnSingleline" class="button sigleline" draggable="true">Single Line Text</button> </li> 
+						<li> <button id="btnParagraph" class="button paragraph" draggable="true">Paragraph Text</button> </li> 
+						<li> <button id="btnMultiple" class="button multiple" draggable="true">Multiple Choice</button></li> 
+						<li> <button id="btnCheckbox" class="button check" draggable="true">Checkboxes</button> </li>
+						<li> <button id="btnNumeric" class="button number" draggable="true">Numeric</button> </li> 
+						<li> <button id="btnDropdown" class="button down" draggable="true">Choose from a list</button> </li> 
+						<li> <button id="btnRange" class="button range" draggable="true">Range</button> </li> 
+						<li> <button id="btnGrid" class="button grid" draggable="true">Matrix</button> </li> 
+						<li> <button id="btnPassword" class="button password" draggable="true">Password</button> </li> 
+						<li> <button id="btnEmail" class="button email" draggable="true">Email</button> </li> 
+						<li> <button id="btnPhone" class="button phone" draggable="true">Phone</button> </li> 
+						<li> <button id="btnWebsite" class="button cloud" draggable="true">Website</button> </li> 
+						<li> <button id="btnDate" class="button range" draggable="true">Date</button> </li> 
+						<li> <button id="btnFileUpload" class="button range" draggable="true">File Upload</button> </li> 
+						<li> <button id="btnSectionBreak" class="button" draggable="true">Section Break</button> </li> 
+						<li> <button id="btnPageBreak" class="button" draggable="true">Page Break</button> </li> 
+				</ul> 
+			</div>
+		</aside>
+
+		<article>
+			
+			<div id="formBuilder">
+
+				<form id="formPreview" class="" action="#"> 
+
+					<div id="formTitle" class="" title="Click to edit."> 
+						<h2><input type="text" placeholder="Untitled Form"/></h2> 
+						<textarea rows="3" cols="50" placeholder="You can include any text or info that will help people fill this out."></textarea>	
+					</div>
+					<br/>
+					<section id="drop">
+						<div class="" id="noFields" onclick="showFields(true);"> 
+							<h2> <b>&larr; No Fields!</b> You should add a field.</h2> 
+							<p class="info">This is a <strong>live preview</strong> of your form. Currently, 
+								<strong>you don't have any fields</strong>. Use the buttons under the <strong>Add a Field</strong> 
+								tab on the left to create inputs for your form. Click on the fields to change their properties.
+							</p>
+						</div>	
+					</section>
+
+					<ol id="formFields">
+						
+					</ol>
+
+					<!--<a href="/contact" id="contact">Contact Us</a>-->
+
+					<input type="submit" align="right" value="Code Snippets" />
+					
+				</form>
+
+			</div>
+
+			<div id="boxes">
+				<div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window">
+					Code Window | <a href="#" class="close">Close it</a>
+					<br/><br/>
+					<p><strong>{ } Sencha code snippet</strong></p>
+					<textarea id="codeSpan" class="" rows="12" cols="82" placeholder=""></textarea>	
+					<br/><br/>
+					<p><strong>{ } HTML code snippet</strong></p>
+					<textarea id="htmlSpan" class="" rows="12" cols="82" placeholder=""></textarea>	
+				</div>
+				<!-- Mask to cover the whole screen -->
+				<div style="width: 1478px; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+			</div>
+			
+			<div id="templates" style="display: none; visibility: invisible;">
+
+				<div id="data" style="display: none; visibility: invisible;"></div>
+
+				<div class="boxToolbar" id="toolbar"></div>
+
+				<span id="previewFieldName" class="previewCaption">Field Name</span>
+
+<!--START SINGLE LINE TEXT-->
+				<div class="preview" id="singleLinePreview">
+					<input id='innerSingleLineText' class="inputArea" readonly="readonly" type='text' placeholder='Additional help for this question' />
+				</div>	
+<!--END SINGLE LINE TEXT-->
+
+<!--START NUMERIC -->
+				<div class="preview" id="numericPreview">
+					<input id='innerNumeric' type="number" class="inputArea" readonly="readonly" name="points" min="1" max="10" placeholder='Additional help for this question'/>
+				</div>	
+<!--END NUMERIC -->
+
+<!--START EMAIL -->
+				<div class="preview" id="emailPreview">
+					<input id='innerEmail' type="email" class="inputArea" readonly="readonly" name="email" placeholder='Additional help for this question'/>
+				</div>	
+<!--END EMAIL -->
+
+<!--START DATE -->
+				<div class="preview" id="datePreview">
+					<input id='innerDate' type="date" class="inputArea" readonly="readonly" name="date" placeholder='Additional help for this question'/>
+				</div>	
+<!--END DATE -->
+
+<!--START PHONE -->
+				<div class="preview" id="phonePreview">
+					<input id='innerPhone' type="tel" class="inputArea" readonly="readonly" name="phone" placeholder='Additional help for this question'/>
+				</div>	
+<!--END PHONE -->
+
+<!--START WEBSITE -->
+				<div class="preview" id="websitePreview">
+					<input id='innerWebsite' type="url" class="inputArea" readonly="readonly" name="website" placeholder='Additional help for this question'/>
+				</div>	
+<!--END WEBSITE -->
+
+<!--START PASSWORD -->
+				<div class="preview" id="passwordPreview">
+					<input id='innerPassword' type="password" class="inputArea" readonly="readonly" name="password" placeholder='Additional help for this question'/>
+				</div>	
+<!--END PASSWORD -->
+
+<!--START RANGE -->
+				<div class="preview" id="rangePreview">
+					<input id='innerRange' type="range" name="points" class="inputArea" readonly="readonly" min="1" max="10" />
+				</div>	
+<!--END RANGE -->
+
+<!--START PARAGRAPH -->
+				<div class="preview" id="paragraphPreview">
+					<textarea id="innerParagraph" class="inputArea" rows="4" cols="50" readonly="readonly" placeholder="Additional help for this question"></textarea>	
+				</div>
+<!--END PARAGRAPH -->
+
+<!--START CHECKBOXES-->
+				<div class="preview" id="checkboxOptions"></div>
+
+				<ol id="checkboxOptOl">
+				</ol>
+				<li id="checkboxOptLi">
+					<input type="checkbox" disabled readonly="readonly" name="item_group:v"> 
+					<input type="text" id="optInput" placeholder="Option 1">
+				</li>
+
+				<li id="checkboxAddOptLi">
+					<input type="checkbox" disabled id="checkbox" name="item_group:v"> 
+					<input type="text" id="addOptInput" readonly="readonly" placeholder="Click to add option">
+					<label class="addOther"><a id="addOther">add "Other"</a></label> 
+				</li>
+<!--END CHECKBOXES-->
+
+<!--START MULTIPLE CHOICE-->
+				<div class="preview" id="multipleChoiceChoices">
+				</div>
+
+				<ol id="multipleChoiceOl">
+				</ol>
+
+				<li id="multipleChoiceLi">
+					<input type="radio" id="radio" disabled name="item_group:v"> 
+					<input type="text" placeholder="Option 1" id="inputId">
+				</li>
+
+				<li id="multipleAddChoiceLi">
+					<input type="radio" disabled id="radio" name="item_group:v"> 
+					<input type="text" readonly="readonly" placeholder="Click here to add an option" id="addOptInput">
+					<label class="addOther"><a id="addOther">add "Other"</a></label> 
+				</li>
+
+<!--END MULTIPLE CHOICE-->
+
+<!--START CHOOSE FROM A LIST-->
+				<div class="preview" id="chooseFromListOptions">
+				</div>
+
+				<ol id="chooseFromListOl">
+				</ol>
+
+				<li id="chooseFromListLi">
+					<span class=""> <strong>1. </strong></span> 
+					<input type="text" id="optInput" placeholder="Option 1">
+				</li>
+
+				<li id="chooseFromAddListLi">
+					<span class="itemNumber"> &nbsp;&nbsp;&nbsp; </span> 
+				 	<input type="text" readonly="readonly" id="addOptInput" placeholder="Click here to add an option">
+					<label class="addOther"><a id="addOther">or add "Other"</a></label> 
+				</li>
+
+<!--END CHOOSE FROM A LIST-->
+
+				<span class="" style="display: none; ">
+					<div class="" title="" role="listbox" style="-webkit-user-select: none; " tabindex="0" aria-haspopup="false">
+						<div class="">
+							<div class="">
+								<div class="">Continue to next page</div>
+								<div class="">&nbsp;
+								</div>
+							</div>
+						</div>
+					</div>
+				</span>
+
+<!--START MATRIX-->
+				<div id="gridOptions">
+					<ol>
+						<li>
+							<span class=""> <strong>Columns </strong></span> 
+							<select id="columnsNum">
+								<option value="1">1</option>
+								  <option value="2">2</option>
+								  <option value="3">3</option>
+								  <option value="4">4</option>
+								 <option value="5">5</option>
+							</select>
+						</li>
+						
+						<li>
+							<span class=""> <strong>Column 1 label </strong></span> 
+							<div class="" style="display: none; ">Other: <input type="text" class="" disabled=""></div>
+							<input type="text" placeholder="1" class="" style="text-align: left; " dir="ltr">
+							<span class="" style="display: none; ">&nbsp;&nbsp;</span>
+						</li>
+						<li>
+							<span class=""> <strong>Column 2 label </strong></span> 
+							<input type="text" style="opacity: 0.5;" placeholder="2" class="">
+						</li>
+
+						<li>
+							<span class=""> <strong>Column 3 label </strong></span> 
+							<input type="text" style="opacity: 0.5;" placeholder="3" class="">
+							<span class="" style="display: none; ">&nbsp;&nbsp;</span>
+						</li>
+						
+						<hr/>
+						
+						<li>
+							<span class=""> <strong>Row 1 label </strong></span> 
+							<input type="text" placeholder="Item 3" class="">
+							<span class="" style="display: none; ">&nbsp;&nbsp;</span>
+						</li>
+
+					</ol>
+				</div>
+<!--END MATRIX-->
+
+				<p class="settings" id="fieldSettings">
+					<input type="checkbox" name="options" id="optRequired" value="required" />
+					<label for="lblRequired">Required (?) </label>
+					<input type="checkbox" name="options" id="optReadOnly" value="readOnly" />
+					<label for="lblReadOnly">Read Only (?) </label>
+					<input type="checkbox" name="options" id="optDuplicate" value="noDuplicates" />
+					<label for="lblNoDuplicates">No Duplicates (?) </label>
+				</p>
+
+				<select id="fieldTypeTemplate">
+					<option value="singleLine">Single Line Text</option>
+					  <option value="paragraph">Paragraph Text</option>
+					  <option value="multipleChoice">Multiple Choice</option>
+					  <option value="checkbox">Checkboxes</option>
+					 <option value="numeric">Numeric</option>
+					 <option value="email">Email</option>
+					 <option value="phone">Phone</option>
+					 <option value="website">Website</option>
+					 <option value="password">Password</option>
+					 <option value="date">Date</option>
+					 <option value="list">Choose from a list</option>
+					<option value="range">Range</option>
+					<option value="grid">Grid</option>			
+				</select>
+						
+
+				<form action="" method="post">
+				     <textarea id="myTextarea" name="content" style="width:0; height:0;"></textarea>
+				     <textarea id="myCssTextarea" name="cssContent" style="width:0; height:0;"></textarea>
+				</form>
+				
+			</div>
+			
+			
+		</article>
+
+	</div> 
+				
+	<div id="footer-container">
+		
+		<footer>
+
+		</footer> 
+	</div>
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script src="js/script.js"></script>
+
+<!--
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+-->
+
+</body>
+</html>
